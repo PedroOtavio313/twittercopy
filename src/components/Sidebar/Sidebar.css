@@ -1,0 +1,54 @@
+.sidebar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    width: 250px;
+    gap: 50px;
+    border-right: 1px solid #333;
+    position: fixed;
+    margin-left: 60px;
+    height: 100vh;
+    
+}
+
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+   
+    
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px; /* Define o espaçamento entre os itens */
+    align-items: left;
+
+    
+}
+
+
+.sidebar ul li {
+    margin: 5px;
+    gap: 8px;
+    font-size: 1.12rem;
+    cursor: pointer;
+    color: #fff;
+    align-items: center;
+    display: flex;
+    
+}
+
+.icone-teste span{
+    margin-right: 10px;
+}
+

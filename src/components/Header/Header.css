@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    margin: 20px 20px 15px;
+
+}
+
+.header h1{
+    font-size: 1.87rem;
+    color: #1da1f2;
+    font-family: "GFS Didot", serif;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+

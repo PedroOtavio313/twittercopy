@@ -1,0 +1,131 @@
+.trending-section {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    width: 300px;
+    color: white;
+    padding: 10px;
+    background-color: black;
+    border-left: 1px solid #333;
+}
+
+.search-bar{
+    margin-right: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #333;   
+    
+}
+
+.search-input {
+    border-radius: 20px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #253341;
+    color: white;
+    font-size: 20px;
+}
+
+.premium-box {
+    padding: 10px;
+    background-color: #1d2936;
+    border-radius: 20px;
+    margin-top: 15px;
+    text-align: center;
+    border: 1px solid white;
+}
+
+.subscribe-button {
+    border: none;
+    background-color: #1d9bf0;
+    font-weight: 700;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 20px;
+    margin-top: 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.subscribe-button:hover{
+    background-color: #034875;
+}
+
+.who-to-follow-box {
+    border: 1px solid white;
+    border-radius: 13px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.trending-box, .who-to-follow {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: black;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+.trending-box h3, .who-to-follow h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.trending-list, .follow-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.trending-list li, .follow-list li {
+    margin-bottom: 10px;
+    line-height: 1.5
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    
+}
+
+.user-avatar {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+.follow-button {
+    background-color: white;
+    padding: 6px 12px;
+    border-radius: 13px;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+
+
+.show-more {
+    font-size: 20px;
+    color: #1d9bf0;
+    text-decoration: none;
+}
+
+.footer-links {
+    border: 1px solid white;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    font-size: 15px;
+}
+
+.footer-links a, p{
+    text-decoration: none;
+    color: gray;
+}
